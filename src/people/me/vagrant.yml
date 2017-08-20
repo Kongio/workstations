@@ -32,7 +32,7 @@ playground:
           boxes:
             ubuntu/trusty32:
 basedev:
-  inclues:
+  includes:
     - components/os/w10e
     - stacks/sql/management
     - components/git/core
