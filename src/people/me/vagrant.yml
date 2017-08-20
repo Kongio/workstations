@@ -31,7 +31,12 @@ playground:
         profiles:
           boxes:
             ubuntu/trusty32:
-
+basedev:
+  inclues:
+    - components/os/w10e
+    - stacks/sql/management
+    - components/git/core
+    
 private:
   includes:
     - components/os/w10e
