@@ -5,4 +5,5 @@ Vagrant.configure('2') do |config|
   gusztavvargadr_workstations_vm config, directory, 'work'
   gusztavvargadr_workstations_vm config, directory, 'playground'
   gusztavvargadr_workstations_vm config, directory, 'private'
+  gusztavvargadr_workstations_vm config, directory, 'basedev'
 end
